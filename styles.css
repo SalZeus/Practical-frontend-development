@@ -82,6 +82,30 @@ nav{
     justify-content: center;
     align-items: center;
 }
+.title-container{
+    display: flex;
+}
+.title-container img{
+    transform: rotate(180deg);
+    margin-right: 14px;
+}
+.title{
+    font-size: var(--lg);
+    text-align: center;
+}
+.title2{
+    font-size: var(--lg);
+    margin-bottom: 40px;
+    text-align: start;
+}
+.subtitle{
+    color: var(--very-light-pink);
+    font-size: var(--md);
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 32px;
+    text-align: center;
+}
 .mobile-menu{
     padding: 24px;
 }
@@ -100,7 +124,7 @@ nav{
 }
 .mobile-menu ul:nth-child(2){
     border-bottom: 1px solid var(--very-light-pink);
-
+    
 }
 .mobile-menu ul li{
     margin-bottom: 24px;
@@ -160,6 +184,13 @@ nav{
     height: 100vh;
     display: grid;
     place-items: center;
+}
+.my-order2{
+    width: 360px;
+    padding: 24px;
+    position: absolute;
+    right: 0;
+    box-sizing: border-box;
 }
 .my-order-container{
     display: grid;
@@ -351,23 +382,6 @@ nav{
     margin-bottom: 50px;
     justify-self: center;
 }
-.title{
-    font-size: var(--lg);
-    text-align: center;
-}
-.title2{
-    font-size: var(--lg);
-    margin-bottom: 40px;
-    text-align: start;
-}
-.subtitle{
-    color: var(--very-light-pink);
-    font-size: var(--md);
-    font-weight: 300;
-    margin-top: 0;
-    margin-bottom: 32px;
-    text-align: center;
-}
 .email-image{
     width: 132px;
     height: 132px;
@@ -506,6 +520,9 @@ nav{
         display: none;
     }
     .product-detail{
+        width: 100%;
+    }
+    .my-order2{
         width: 100%;
     }
 }
